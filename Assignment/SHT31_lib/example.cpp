@@ -1,5 +1,5 @@
 #include <iostream>
-#include "sht31.h"
+#include "SHT31.h"
 
 int main() {
     SHT31 sht;
