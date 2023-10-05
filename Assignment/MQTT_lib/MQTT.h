@@ -3,9 +3,9 @@
 
 #include <mqtt/async_client.h>
 #include <string>
-#include <memory>
 
-class MqttPublisher {
+class MqttPublisher 
+{
 public:
 	MqttPublisher(const std::string& brokerAddress, const std::string& clientId);
     ~MqttPublisher();
@@ -22,4 +22,3 @@ private:
 };
 
 #endif
-
