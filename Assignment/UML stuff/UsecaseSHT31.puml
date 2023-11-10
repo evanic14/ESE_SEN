@@ -1,0 +1,28 @@
+@startuml SHT31 use case diagram
+left to right direction
+actor User   as user
+actor Sensor as sensor
+
+package Library {
+  package Sensor_library {
+    usecase "Setup com bus"     as UC11
+    usecase "Setup sensor"      as UC12
+    usecase "Send data to mqtt" as UC13
+  }
+
+  package MQTT_library {
+    usecase "Setup connection"  as UC21
+    usecase "Subscribe to topic"as UC22
+    usecase "Send data to user" as UC23
+  }
+}
+
+user     --> UC11
+user     --> UC21
+UC21     --> UC22
+UC11     --> UC12
+UC12     --> sensor
+sensor   --> UC13
+UC13     --> UC23
+UC23     --> user
+@enduml
