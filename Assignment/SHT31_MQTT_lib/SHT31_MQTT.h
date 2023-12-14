@@ -2,6 +2,7 @@
 #define SHT31_MQTT_H
 
 #include <cstdint>
+#include <string>
 
 class SHT31 
 {
@@ -44,6 +45,6 @@ public:
 	void init();
 	void send();
 	void close();
-}
+};
 
 #endif
