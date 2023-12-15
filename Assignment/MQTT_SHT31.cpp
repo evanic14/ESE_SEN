@@ -1,7 +1,7 @@
 #include <iostream>
-#include </home/emiel/Documents/ESE_FORK/ESE_SEN/Assignment/SHT31_lib/SHT31.h>
+#include <SHT31.h>
 #include <cstring>
-#include </home/emiel/paho.mqtt.cpp/src/mqtt/async_client.h>
+#include <mqtt/async_client.h>
 
 const std::string SERVER_ADDRESS("tcp://broker.example.com:1883");
 const std::string CLIENT_ID("cpp_publisher");
