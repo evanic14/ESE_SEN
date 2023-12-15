@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emiel/Documents/ESE_FORK/ESE_SEN/Assignment
+CMAKE_SOURCE_DIR = /home/emiel/Documents/S3_PROG5_LAB/Assignment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emiel/Documents/ESE_FORK/ESE_SEN/Assignment/build
+CMAKE_BINARY_DIR = /home/emiel/Documents/S3_PROG5_LAB/Assignment/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/MqttSensorExample.dir/clean
 CMakeFiles/MqttSensorExample.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MqttSensorExample.dir/build.make CMakeFiles/MqttSensorExample.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MqttSensorExample.dir/build.make CMakeFiles/MqttSensorExample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emiel/Documents/ESE_FORK/ESE_SEN/Assignment/build/CMakeFiles --progress-num=1,2,3 "Built target MqttSensorExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emiel/Documents/S3_PROG5_LAB/Assignment/build/CMakeFiles --progress-num=1,2,3 "Built target MqttSensorExample"
 .PHONY : CMakeFiles/MqttSensorExample.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MqttSensorExample.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emiel/Documents/ESE_FORK/ESE_SEN/Assignment/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emiel/Documents/S3_PROG5_LAB/Assignment/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MqttSensorExample.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emiel/Documents/ESE_FORK/ESE_SEN/Assignment/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emiel/Documents/S3_PROG5_LAB/Assignment/build/CMakeFiles 0
 .PHONY : CMakeFiles/MqttSensorExample.dir/rule
 
 # Convenience name for target.

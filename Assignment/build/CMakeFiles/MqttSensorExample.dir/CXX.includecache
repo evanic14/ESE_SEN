@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+../SHT31_lib/SHT31.h
+cstdint
+-
+
+/home/emiel/Documents/S3_PROG5_LAB/Assignment/MQTT_SHT31.cpp
+iostream
+-
+SHT31.h
+-
+cstring
+-
+mqtt/async_client.h
+-
+
 /home/emiel/paho.mqtt.cpp/src/async_client.cpp
 mqtt/async_client.h
 /home/emiel/paho.mqtt.cpp/src/mqtt/async_client.h

@@ -3,7 +3,7 @@
 
 CMakeFiles/MqttSensorExample.dir/MQTT_SHT31.cpp.o
  ../SHT31_lib/SHT31.h
- /home/emiel/Documents/ESE_FORK/ESE_SEN/Assignment/MQTT_SHT31.cpp
+ /home/emiel/Documents/S3_PROG5_LAB/Assignment/MQTT_SHT31.cpp
  /home/emiel/paho.mqtt.cpp/src/mqtt/async_client.h
  /home/emiel/paho.mqtt.cpp/src/mqtt/buffer_ref.h
  /home/emiel/paho.mqtt.cpp/src/mqtt/buffer_view.h

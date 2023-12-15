@@ -1,4 +1,4 @@
-# Install script for directory: /home/emiel/Documents/ESE_FORK/ESE_SEN/Assignment
+# Install script for directory: /home/emiel/Documents/S3_PROG5_LAB/Assignment
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/emiel/Documents/ESE_FORK/ESE_SEN/Assignment/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/emiel/Documents/S3_PROG5_LAB/Assignment/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

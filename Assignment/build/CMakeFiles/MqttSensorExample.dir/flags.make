@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/emiel/Documents/ESE_FORK/ESE_SEN/Assignment/SHT31_lib -I/home/emiel/paho.mqtt.cpp/src
+CXX_INCLUDES = -I/home/emiel/Documents/S3_PROG5_LAB/Assignment/SHT31_lib -I/home/emiel/paho.mqtt.cpp/src
 
 CXX_FLAGS = -std=gnu++11
 
