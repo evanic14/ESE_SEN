@@ -1,6 +1,6 @@
 #include <iostream>
-#include </home/emiel/Documents/ESE_SEN/Assignment/SHT31.h>
-#include </home/emiel/Documents/ESE_SEN/Assignment/paho.mqtt.cpp/src/mqtt/client.h>
+#include </home/emiel/Documents/S3_PROG5_LAB/Assignment/SHT31.h>
+#include </home/emiel/Desktop/Assignment/paho.mqtt.cpp/src/mqtt/client.h>
 
 const std::string ADDRESS("tcp://localhost:1884");
 const std::string CLIENT_ID("reciever");
@@ -57,3 +57,4 @@ int main ()
 	
 	return 0;
 }
+

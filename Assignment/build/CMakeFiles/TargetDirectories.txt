@@ -1,3 +1,0 @@
-/home/emiel/Documents/S3_PROG5_LAB/Assignment/build/CMakeFiles/rebuild_cache.dir
-/home/emiel/Documents/S3_PROG5_LAB/Assignment/build/CMakeFiles/edit_cache.dir
-/home/emiel/Documents/S3_PROG5_LAB/Assignment/build/CMakeFiles/MqttSensorExample.dir
