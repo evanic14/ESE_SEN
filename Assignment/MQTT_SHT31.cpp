@@ -1,5 +1,5 @@
-#include <iostream>
-#include <SHT31.h>
+
+#include </home/emiel/Documents/S3_PROG5_LAB/Assignment/SHT31_lib/SHT31.h>
 #include <cstring>
 #include <mqtt/async_client.h>
 
